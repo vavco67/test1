@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+
+</head>
+<style>
+    <style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">body {
+        margin: 0;
+        direction: rtl;
+        font-family: "Heebo", sans-serif;
+    }
+
+    .upper {
+        background-image: url('images/Path_15.png');
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 590px;
+        position: relative;
+
+    }
+
+    .lower {
+        width: 569px;
+        height: 643px;
+        background-color: rgba(0, 0, 0, 0.764);
+        position: absolute;
+        top: 160px;
+        right: 300px;
+        padding: 35px;
+        color: #fff;
+
+
+    }
+
+    h1 {
+        font-size: 36px;
+        font-weight: 900;
+        direction: rtl;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 500px;
+        direction: rtl;
+    }
+
+    form {
+        direction: rtl;
+        margin-top: 80px;
+    }
+
+    label {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    input.field {
+        width: 100%;
+        border: 1px solid #D31C75;
+        font-size: 20px;
+        height: 50px;
+
+    }
+
+    input[type=submit] {
+        background-color: #D31C75;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        font-family: "Heebo", sans-serif;
+        padding: 10px 50px;
+
+
+    }
+
+    @media screen and (max-width: 1300px) {
+        .lower {
+            right: 50%;
+            transform: translateX(50%);
+        }
+
+        @media screen and (max-width: 800px) {
+            .lower {
+                width: 80%;
+            }
+        }
+    }
+</style>
+
+<body>
+    <div class="upper">
+        <div class="lower">
+            <h1>תן לנו להוביל אותך קדימה</h1>
+            <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל <br> וחסר משמעות המשמש “ממלא מקום” בעת עריכ.</p>
+            <form>
+                <label>שם מלא</label>
+                <br>
+                <input class=field type="text">
+                <br><br>
+                <label>דוא"ל</label>
+                <br>
+                <input class=field type="email">
+                <br><br>
+                <input type="submit" value="שליחה">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
